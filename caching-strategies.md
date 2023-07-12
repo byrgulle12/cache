@@ -11,7 +11,7 @@ This document lists some of the strategies (and example workflows if possible) w
 ```yaml
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-java-rust--latest
     - uses: actions/cache@v3
       with:
         key: ${{ some-metadata }}-cache
